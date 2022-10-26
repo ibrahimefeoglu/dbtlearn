@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: CRM
+      database: SNOWFLAKE_SAMPLE_DATA
+      schema: TPCDS_SF100TCL
+      tables: 
+        - name: customer
+        - name: store
+        - name: call_center
